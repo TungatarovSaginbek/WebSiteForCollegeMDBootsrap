@@ -1,0 +1,97 @@
+html,
+body,
+header,
+.view {
+height: 100%;
+}
+
+@media (max-width: 740px) {
+html,
+body,
+header,
+.view {
+    height: 1000px;
+}
+}
+@media (min-width: 800px) and (max-width: 850px) {
+html,
+body,
+header,
+.view {
+    height: 600px;
+}
+}
+
+.btn .fa {
+margin-left: 3px;
+}
+
+.top-nav-collapse {
+background-color: #424f95 !important;
+}
+
+.navbar:not(.top-nav-collapse) {
+background: transparent !important;
+}
+
+@media (max-width: 991px) {
+.navbar:not(.top-nav-collapse) {
+background: #424f95 !important;
+}
+}
+
+.btn-white {
+color: black !important;
+}
+
+h6 {
+line-height: 1.7;
+}
+.view {
+    background: #08218C !important;
+}
+#video {
+    text-align: center;
+}
+
+video {
+    text-align: center;
+    margin: 20px auto;
+    width: 1150px;
+}
+
+footer {
+    background: #08218C !important;
+}
+
+@media(max-width: 1400px) {
+    video {
+        width: 1000px;
+    }
+}
+@media(max-width: 1150px) {
+    video {
+        width: 800px;
+    }
+}
+@media(max-width: 900px) {
+    video {
+        width: 600px;
+    }
+}
+@media(max-width: 700px) {
+    video {
+        width: 450px;
+    }
+}
+@media(max-width: 550px) {
+    video {
+        width: 350px;
+    }
+}
+
+@media(max-width: 400px) {
+    video {
+        width: 250px;
+    }
+}
